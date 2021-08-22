@@ -53,8 +53,82 @@
   </section>
   <section>
     <p>
-Today I want show how to create a blog using <a href="https://emacs.love/weblorg">weblorg</a>
+Today I'll show the easier and fast way  to create a blog using <b>Emacs</b> and <b>org-mode</b>.
 </p>
+
+<p>
+There is many ways to create blog and websites using <b>Emacs</b> and <b>org-mode</b>, but the smooth and painless way I know is using <a href="https://emacs.love/weblorg">Weblorg</a>.
+</p>
+
+<p>
+Come to thing of it I want to introduce a <a href="https://github.com/emacs-love/weblorg-template">Github Template</a> for Weblorg with built-in CI. What was easy now become a piece of cake.
+</p>
+
+<div id="outline-container-step-by-step" class="outline-2">
+<h2 id="step-by-step">Step by step</h2>
+<div class="outline-text-2" id="text-step-by-step">
+</div>
+<div id="outline-container-using-the-template" class="outline-3">
+<h3 id="using-the-template">Using the template</h3>
+<div class="outline-text-3">
+<p>
+Considering you have a Github Account, access the <a href="https://github.com/emacs-love/weblorg-template">template</a> and create repository clicking on <b>Use this template</b> button and follow the steps to create your repository.
+</p>
+</div>
+</div>
+
+<div id="outline-container-setup-your-blog" class="outline-3">
+<h3 id="setup-your-blog">Setup your blog</h3>
+<div class="outline-text-3">
+<p>
+There is a few things you need to change to make you new website alive.
+</p>
+
+<ol class="org-ol">
+<li>Configure the production URL on <code>publish.el</code> to your domain.</li>
+<li>Active Github Page on your repository and use docs folder as your page content.</li>
+</ol>
+</div>
+</div>
+
+
+<div id="outline-container-celebrate" class="outline-3">
+<h3 id="celebrate">Celebrate</h3>
+<div class="outline-text-3">
+<p>
+You blog is ready and published!
+</p>
+</div>
+</div>
+
+<div id="outline-container-adding-new-content" class="outline-3">
+<h3 id="adding-new-content">Adding new content</h3>
+<div class="outline-text-3">
+<p>
+To create new blog post just create new org file on <code>src/posts</code> folder and wrote your content.
+I recommend this header for your blog post:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-org-mode">#+TITLE: YOUR TITLE
+#+DATE: &lt;2021-08-22 dom&gt;
+#+AUTHOR: Name the author
+#+OPTIONS: toc:nil num:nil
+#+OPTIONS: ^:nil
+</pre>
+</div>
+
+<p>
+After wrote your awesome post commit the new file and let the CI do the hard work for you.
+In few minutes your new post will be online
+</p>
+
+<p>
+If you have any question, comments or suggestions <a href="https://github.com/guilhermecomum/website/discussions/4">let me know</a>
+</p>
+</div>
+</div>
+</div>
 
   </section>
 </article>
