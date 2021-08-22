@@ -5,8 +5,15 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: nanzhong/weblorg
+    strategy:
+      matrix:
+        emacs_version:
+          - 26.3
+          - snapshot
     steps:
+    - uses: purcell/setup-emacs@master
+      with:
+        version: ${{ matrix.emacs_version }}
     - uses: actions/checkout@v2
     - name: Clean site
       run: |
