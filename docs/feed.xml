@@ -18,7 +18,7 @@
     <description><![CDATA[]]></description>
     <language>en</language>
     <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
-    <lastBuildDate>Sun, 22 Aug 2021 15:11:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Aug 2021 17:49:36 +0000</lastBuildDate>
     <generator>weblorg 0.1.0 (https://emacs.love/weblorg)</generator>
     <webMaster>web@master (Blog Author)</webMaster>
     <image>
@@ -52,6 +52,20 @@ You can do markups on your post just follow this cheatsheet
 </ul>
 </div>
 </div>
+]]></description>
+    </item>
+    
+    <item>
+      <title>Easy blogging with org-mode</title>
+      <link>https://guilhermecomum.github.io/website//posts/easy-blogging-with-org-mode.html</link>
+      <author>Guilherme Guerra</author>
+      <guid isPermaLink="false">https://guilhermecomum.github.io/website//posts/easy-blogging-with-org-mode.html</guid>
+      
+        <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <description><![CDATA[<p>
+Today I want show how to create a blog using <a href="https://emacs.love/weblorg">weblorg</a>
+</p>
 ]]></description>
     </item>
     
