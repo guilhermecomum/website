@@ -1,0 +1,7 @@
+#+TITLE: Easy blogging with org-mode
+#+DATE: <2021-08-22 dom>
+#+AUTHOR: Guilherme Guerra
+#+OPTIONS: toc:nil num:nil
+#+OPTIONS: ^:nil
+
+Today I want show how to create a blog using [[https://emacs.love/weblorg][weblorg]]
