@@ -1,7 +1,43 @@
+# -*- mode: Org; org-download-image-dir: "~/Projects/website/docs/static/images/"; -*-
 #+TITLE: Easy blogging with org-mode
 #+DATE: <2021-08-22 dom>
 #+AUTHOR: Guilherme Guerra
 #+OPTIONS: toc:nil num:nil
 #+OPTIONS: ^:nil
 
-Today I want show how to create a blog using [[https://emacs.love/weblorg][weblorg]]
+Today I'll show the easier and fast way  to create a blog using *Emacs* and *org-mode*.
+
+There is many ways to create blog and websites using *Emacs* and *org-mode*, but the smooth and painless way I know is using [[https://emacs.love/weblorg][Weblorg]].
+
+Come to thing of it I want to introduce a [[https://github.com/emacs-love/weblorg-template][Github Template]] for Weblorg with built-in CI. What was easy now become a piece of cake.
+
+* Step by step
+** Using the template
+Considering you have a Github Account, access the [[https://github.com/emacs-love/weblorg-template][template]] and create repository clicking on *Use this template* button and follow the steps to create your repository.
+
+** Setup your blog
+There is a few things you need to change to make you new website alive.
+
+1. Configure the production URL on =publish.el= to your domain.
+2. Active Github Page on your repository and use docs folder as your page content.
+
+
+** Celebrate
+You blog is ready and published!
+
+** Adding new content
+To create new blog post just create new org file on =src/posts= folder and wrote your content.
+I recommend this header for your blog post:
+
+#+begin_src org-mode
+#+TITLE: YOUR TITLE
+#+DATE: <2021-08-22 dom>
+#+AUTHOR: Name the author
+#+OPTIONS: toc:nil num:nil
+#+OPTIONS: ^:nil
+#+end_src
+
+After wrote your awesome post commit the new file and let the CI do the hard work for you.
+In few minutes your new post will be online
+
+If you have any question, comments or suggestions [[https://github.com/guilhermecomum/website/discussions/4][let me know]]
