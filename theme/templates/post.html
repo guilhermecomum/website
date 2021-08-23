@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block main %}
+<article class="post">
+  <h1 class="text-5xl">
+    {{ post.title }}
+  </h1>
+  <section class="my-3">
+    {% if post.date is defined %}
+      {{ post.date|strftime("%b %d, %Y") }} :: {{post.author}}
+    {% endif %}
+  </section>
+  <section>
+    {{ post.html|safe }}
+  </section>
+</article>
+{% endblock %}

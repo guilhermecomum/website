@@ -31,6 +31,9 @@
 (if (string= (getenv "ENV") "local")
     (setq weblorg-default-url "http://localhost:8000"))
 
+;; Set site wide configuration
+(weblorg-site :theme nil)
+
 ;; Generate blog posts
 (weblorg-route
  :name "posts"

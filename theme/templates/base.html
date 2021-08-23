@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>In between</title>
+    <meta name="author" content="Guilherme Guerra" />
+    <meta name="description" content="my personal blog" />
+    <meta name="keywords" content="life,tech,random" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+    <link rel="stylesheet" href="{{ url_for("static", file="style.css") }}" type="text/css" />
+   </head>
+  <body class="font-mono container mx-auto bg-black text-green-600">
+    <header>
+      <div class="logo_header">
+        <a href="/">
+          <h1 class="logo">In between</h1>
+        </a>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="{{ url_for("pages", slug="about" )}}">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="mt-8">
+      {% block main %}{% endblock %}
+    </main>
+    <footer>
+      2021 Made in <a href="https://github.com/emacs-love/weblorg/">Weblorg</a> with
+      love <3
+    </footer>
+  </body>
+</html>

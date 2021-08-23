@@ -1,0 +1,305 @@
+/* :root { */
+/*   --accent: #0094ff; */
+/*   --background: #1D1E28; */
+/*   --color: white; */
+/*   --border-color: rgba(255, 255, 255, .1); */
+/* } */
+
+/* @font-face { */
+/*   font-family: 'Fira Code'; */
+/*   font-style:  normal; */
+/*   font-weight: 400; */
+/*   src: url("assets/fonts/FiraCode-Regular.woff") format("woff"); */
+/* } */
+
+/* @font-face { */
+/*   font-family: 'Fira Code'; */
+/*   font-style:  normal; */
+/*   font-weight: 800; */
+/*   src: url("assets/fonts/FiraCode-Bold.woff") format("woff"); */
+/* } */
+
+/* body { */
+/*   margin: 0 15%; */
+/*   padding: 0; */
+/*   font-family: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace; */
+/*   font-size: 1.3rem; */
+/*   line-height: 1.54; */
+/*   letter-spacing: -0.02em; */
+/*   background-color: var(--background); */
+/*   color: var(--color); */
+/*   text-rendering: optimizeLegibility; */
+/*   -webkit-font-smoothing: antialiased; */
+/*   font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl"; */
+/*   font-variant-ligatures: contextual; */
+/*   -webkit-overflow-scrolling: touch; */
+/*   -webkit-text-size-adjust: 100%; */
+/* } */
+
+header {
+  display: flex;
+  margin: 40px 0;
+  align-items: center;
+  align-content: center;
+justify-content: space-between;
+}
+
+/* .logo_header { */
+/*   display: flex; */
+/*   flex: 1; */
+/*   text-decoration: none; */
+/*   color: black; */
+/* } */
+
+/* .logo_header:after { */
+/*   content: ''; */
+/*   background: repeating-linear-gradient(90deg, var(--accent), var(--accent) 2px, transparent 0, transparent 10px); */
+/*   display: block; */
+/*   width: 100%; */
+/*   right: 10px; */
+/* } */
+
+/* .logo_header > a { */
+/*   flex: 0 0 auto; */
+/*   max-width: 100%; */
+/*   text-decoration: none; */
+
+/* } */
+
+/* .logo { */
+/*   display: flex; */
+/*   align-items: center; */
+/*   text-decoration: none; */
+/*   background: var(--accent); */
+/*   color: #000; */
+/*   padding: 5px 10px; */
+/*   margin: 0; */
+/*   font-size: 1.2em; */
+/* } */
+
+nav  {
+  margin: 20px 0;
+  align
+}
+
+nav > ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li  {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  color: var(--color);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color)
+}
+
+nav > ul > li > a:hover {
+  color: var(--accent)
+}
+
+/* .post .post-title { */
+/*   margin-top: 40px; */
+/*   position: relative; */
+/*   color: var(--accent); */
+/*   margin: 0 0 15px; */
+/*   margin-top: 0px; */
+/*   padding-bottom: 15px; */
+/*   border-bottom: 3px dotted var(--accent); */
+/* } */
+
+/* .post .post-title a { */
+/*   text-decoration: none; */
+/*   color: var(--accent); */
+/* } */
+
+/* .post .post-title:after { */
+/*   content: ""; */
+/*   position: absolute; */
+/*   bottom: 2px; */
+/*   display: block; */
+/*   width: 100%; */
+/*   border-bottom: 3px dotted var(--accent); */
+/* } */
+
+/* .post-meta { */
+/*   color: var(--accent) */
+/* } */
+
+/* Name: Duotone Sea */
+/* Author: by Simurai, adapted from DuoTone themes by Simurai for Atom (http://simurai.com/projects/2016/01/01/duotone-themes) */
+
+/* Conversion: Bram de Haan (http://atelierbram.github.io/Base2Tone-prism/output/prism/prism-base2tone-sea-dark.css) */
+/* Generated with Base16 Builder (https://github.com/base16-builder/base16-builder) */
+
+.org-src-container {
+    border: 2px solid #059669;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+	font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+	font-size: 14px;
+	line-height: 1.375;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	background: #1d262f;
+	color: #57718e;
+}
+
+pre > code[class*="language-"] {
+	font-size: 1em;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	background: #004a9e;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+	text-shadow: none;
+	background: #004a9e;
+}
+
+Code blocks
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+Inline code
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+}
+
+.org-comment,
+.org-prolog,
+.org-doctype,
+.org-cdata {
+	color: #4a5f78;
+}
+
+.org-punctuation {
+	color: #4a5f78;
+}
+
+.org-namespace {
+	opacity: .7;
+}
+
+.org-tag,
+.org-operator,
+.org-number {
+	color: #0aa370;
+}
+
+.org-property,
+.org-function {
+	color: #57718e;
+}
+
+.org-tag-id,
+.org-selector,
+.org-atrule-id {
+	color: #ebf4ff;
+}
+
+code.language-javascript,
+.org-attr-name {
+	color: #7eb6f6;
+}
+
+code.language-css,
+code.language-scss,
+.org-boolean,
+.org-string,
+.org-entity,
+.org-url,
+.language-css .org-string,
+.language-scss .org-string,
+.style .org-string,
+.org-attr-value,
+.org-keyword,
+.org-control,
+.org-directive,
+.org-unit,
+.org-statement,
+.org-regex,
+.org-atrule {
+	color: #47ebb4;
+}
+
+.org-placeholder,
+.org-variable {
+	color: #47ebb4;
+}
+
+.org-deleted {
+	text-decoration: line-through;
+}
+
+.org-inserted {
+	border-bottom: 1px dotted #ebf4ff;
+	text-decoration: none;
+}
+
+.org-italic {
+	font-style: italic;
+}
+
+.org-important,
+.org-bold {
+	font-weight: bold;
+}
+
+.org-important {
+	color: #7eb6f6;
+}
+
+.org-entity {
+	cursor: help;
+}
+
+pre > code.highlight {
+	outline: .4em solid #34659d;
+	outline-offset: .4em;
+}
+
+/* overrides color-values for the Line Numbers plugin */
+/* http://prismjs.com/plugins/line-numbers/ */
+.line-numbers .line-numbers-rows {
+	border-right-color: #1f2932;
+}
+
+.line-numbers-rows > span:before {
+	color: #2c3847;
+}
+
+/* overrides color-values for the Line Highlight plugin */
+/* http://prismjs.com/plugins/line-highlight/ */
+.line-highlight {
+	background: rgba(10, 163, 112, 0.2);
+	background: -webkit-linear-gradient(left, rgba(10, 163, 112, 0.2) 70%, rgba(10, 163, 112, 0));
+	background: linear-gradient(to right, rgba(10, 163, 112, 0.2) 70%, rgba(10, 163, 112, 0));
+}
